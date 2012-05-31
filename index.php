@@ -89,43 +89,43 @@ else{
 			<td>
 			<select name="wplanguage" size="1">
 			<option value="bs_BA">Bosanski</option>
-			<option value="ca">Català</option>
-			<option value="cs_CZ">Čeština</option>
+			<option value="ca">Catal�</option>
+			<option value="cs_CZ">Ce�tina</option>
 			<option value="es_CL">Chile</option>
-			<option value="zh_CN">中文</option>
+			<option value="zh_CN">??</option>
 			<option value="hr">Hrvatski</option>
 			<option value="da_DK">Dansk</option>
 			<option value="de_DE">Deutschland</option>
 			<option value="" selected="selected">English (Default)</option>
-			<option value="es_ES">Español</option>
+			<option value="es_ES">Espa�ol</option>
 			<option value="eu">Euskara</option>
 			<option value="fi">Finnish</option>
-			<option value="fr_FR">Français</option>
+			<option value="fr_FR">Fran�ais</option>
 			<option value="gl_ES">Galego</option>
 			<option value="cy">Galician</option>
-			<option value="he_IL">וורדפרס בעברית</option>
+			<option value="he_IL">??????? ??????</option>
 			<option value="hu_HU">Magyar</option>
 			<option value="id_ID">Indonesian</option>
 			<option value="it_IT">Italia</option>
-			<option value="ja">日本</option>
-			<option value="ko_KR">한국어</option>
-			<option value="lv">Latviešu</option>
-			<option value="fa_IR">فارسی</option>
-			<option value="nb_NO">Norwegian (Bokmål)</option>
+			<option value="ja">??</option>
+			<option value="ko_KR">???</option>
+			<option value="lv">Latvie�u</option>
+			<option value="fa_IR">?????</option>
+			<option value="nb_NO">Norwegian (Bokm�l)</option>
 			<option value="nn_NO">Norwegian (Nynorsk)</option>
 			<option value="nl_NL">Nederland</option>
-			<option value="pl_PL">Рolish</option>
+			<option value="pl_PL">?olish</option>
 			<option value="pt_PT">Portuguese (European)</option>
 			<option value="pt_BR">Portuguese (Brazilian)</option>
-			<option value="ro_RO">Românâ</option>
-			<option value="ru_RU">Русский</option>
-			<option value="sr_RS">Српски</option>
-			<option value="si_LK">සිංහල</option>
-			<option value="sk_SK">Slovenčina</option>
+			<option value="ro_RO">Rom�n�</option>
+			<option value="ru_RU">???????</option>
+			<option value="sr_RS">??????</option>
+			<option value="si_LK">?????</option>
+			<option value="sk_SK">Slovencina</option>
 			<option value="sv_SE">Sverige</option>
-			<option value="zh_TW">正體中文</option>
+			<option value="zh_TW">????</option>
 			<option value="th">Thai</option>
-			<option value="tr_TR">Türkiye</option>
+			<option value="tr_TR">T�rkiye</option>
 			</select>
 			<p>Select the language of WordPress you wish to install if it is not English.</p>
 			<p style="color:red;"><b>Note</b>: Only the latest version is available for other languages. Sometimes the version might be a few stages behind the English. This is to do with WordPress themselves, not the installer.</p>
