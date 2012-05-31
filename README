@@ -2,7 +2,7 @@ Project
 ------------
 WordPress Online Installer
 
-This is the source code that is used on my service site at http://www.wpsetup.org . I have added it on GitHub for those who would like to take part in helping me develop the service site more or use it as starter to create another CMS online setup service site i.e. Drupal.
+This is the source code that is used on my service site at http://www.wpsetup.org . I have added it on GitHub for those who would like to take part in helping me develop the service site more or use it as a starter to create another CMS online setup service site i.e. Drupal.
 
 Note: Certain parts have been removed that are only for wpsetup.org e.g. Change Log, Stat counter, Google Analystics and Supported Adverts and so on. The header of the site has also been removed along with the stylesheet. You can make your own.
 
@@ -27,7 +27,6 @@ When running the script live, it's best to have SSH applied for security protect
 Things that need to be fixed
 ----------------------------
 - WordPress must still copy to the users specified directory even if the folder already exists.
-
 
 Change Log
 ----------
