@@ -1,1 +1,30 @@
-Allows you to install WordPress to your host and customise the configuration before setting up your new site.
+Project
+------------
+WordPress Online Installer
+
+This is the source code that is used on my service site at http://www.wpsetup.org . I have added it on GitHub for those who would like to take part in helping me develop the service site more or use it as starter to create another CMS online setup service site i.e. Drupal.
+
+Note: Certain parts have been removed that are only for wpsetup.org e.g. Change Log, Stat counter, Google Analystics and Supported Adverts. The header of the site has also been removed along with the stylesheet. You can make your own.
+
+Please note that this has no part of, or endorsed by, WordPress or Automattic what so ever. All copyrights of WordPress are reserved by Automatic. This is simply an upload, extract and setup script.
+
+
+Description
+-----------------
+It allows you to install WordPress to your host and customise the configuration before setting up your new site. You are able to setup WordPress very easy and save time without any hassle.
+
+The Custom Setup
+----------------
+You can customise your 'wp-config.php' file, increase memory, setup trash, autosave and revisions, enable networking, enable debugging mode and more including deleting the wp-config-sample.php file once custom setup is complete.
+
+Requirements
+------------
+You will need 'allow_url_fopen' enabled in a PHP config file for the salt keys to be fetched from WordPress and added to the wp-config.php file automatically. This was a feature added to save time getting them from WordPress your self and copying and pasting the keys into your config file.
+
+The user must have permission to create folders by FTP. Without this ability, the script can not create a new folder to extract WordPress into. If a better way is possible, please consider submitting your code to this project.
+
+When running the script on site, it's best to have SSH applied for security protection so that the users are protected when entering there FTP details. This script does not work unless it has access to the users host for the WordPress script to download.
+
+Change Log
+----------
+31st May 2012 - Initial Submission on GitHub
