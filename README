@@ -4,10 +4,9 @@ WordPress Online Installer
 
 This is the source code that is used on my service site at http://www.wpsetup.org . I have added it on GitHub for those who would like to take part in helping me develop the service site more or use it as starter to create another CMS online setup service site i.e. Drupal.
 
-Note: Certain parts have been removed that are only for wpsetup.org e.g. Change Log, Stat counter, Google Analystics and Supported Adverts. The header of the site has also been removed along with the stylesheet. You can make your own.
+Note: Certain parts have been removed that are only for wpsetup.org e.g. Change Log, Stat counter, Google Analystics and Supported Adverts and so on. The header of the site has also been removed along with the stylesheet. You can make your own.
 
 Please note that this has no part of, or endorsed by, WordPress or Automattic what so ever. All copyrights of WordPress are reserved by Automatic. This is simply an upload, extract and setup script.
-
 
 Description
 -----------------
@@ -23,7 +22,12 @@ You will need 'allow_url_fopen' enabled in a PHP config file for the salt keys t
 
 The user must have permission to create folders by FTP. Without this ability, the script can not create a new folder to extract WordPress into. If a better way is possible, please consider submitting your code to this project.
 
-When running the script on site, it's best to have SSH applied for security protection so that the users are protected when entering there FTP details. This script does not work unless it has access to the users host for the WordPress script to download.
+When running the script live, it's best to have SSH applied for security protection so that the users are protected when entering there FTP details. This script does not work unless it has access to the users host for the WordPress script to download.
+
+Things that need to be fixed
+----------------------------
+- WordPress must still copy to the users specified directory even if the folder already exists.
+
 
 Change Log
 ----------
